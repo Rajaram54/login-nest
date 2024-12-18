@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "declaration": false,
+      "noImplicitAny": false,
+      "noUnusedLocals": false,
+      "strictNullChecks": false,
+      "noImplicitThis": true,
+      "removeComments": true,
+      "noLib": false,
+      "typeRoots": ["./node_modules/@types", "./types"],
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "useUnknownInCatchVariables": false,
+      "target": "ES2021",
+      "sourceMap": true,
+      "allowJs": false,
+      "outDir": "./dist",
+      "baseUrl": ".",
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
